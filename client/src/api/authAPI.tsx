@@ -22,7 +22,7 @@ const login = async (userInfo: UserLogin) => {
     console.log('Error from login: ', err);
     return Promise.reject('Could not get user information');
   }
-};  
+}
 
 
 
